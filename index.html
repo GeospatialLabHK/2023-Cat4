@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <title>
+            CodePen - Figure + Figcaption
+        </title>
+        <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700" rel="stylesheet"/>
+        <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css" rel="stylesheet"/>
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet"/>
+        <link href="./style.css" rel="stylesheet"/>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+    </head>
+    <body>
+        <div id="page-title">
+            CSDI Awards 2023 - Category 4
+        </div>
+        
+        <div class="cards-container1">
+            <figure class="image-block">
+                <h1>
+                    
+                </h1>
+                <img alt="" src="pic/busking.png"/>
+                <figcaption>
+                    <h3>
+                        To Band or to Ban &nbsp; | &nbsp; Champion 🥇
+                    </h3>
+                    <span>
+                        Group 10
+                    </span>
+                    <p>
+                        Keen to show off your singing talent but don’t want to be a nuisance? Hong Kong’s got lots of singing talents, but the restrictive physical environment may not allow them to busk freely in public. This work uses geographical information system to easily find sites that allows busking, have regulatory restrictions, but have sufficient pedestrian flows. User can also use the online reservation system to help reserve a good spot where you can sing freely and add to vibrancy of the city! 
+                    </p>
+                    <button class="read-more-button" data-link="https://onedrive.live.com/embed?resid=E24C9B498E3B8545%21139&amp;authkey=!ALbWNqdeOLIyWYM&amp;em=2&amp;wdAr=1.7777777777777777" width="1280px" height="780px" frameborder="0" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true">
+                        View StoryMap
+                    </button>
+                </figcaption>
+            </figure>
+        </div>
+        <div class="cards-container2">
+            <figure class="image-block">
+                <h1>
+
+                </h1>
+                <img alt="" src="pic/urbaneye.png"/>
+                <figcaption>
+                    <h3>
+                        UrbanEYE &nbsp; | &nbsp; 1st runner up 🥈
+                    </h3>
+                    <span>
+                        Group 11
+                    </span>
+                    <p>
+                        As the city continues to progress and evolve, many old districts will undergo redevelopment to create newer and better communities. In your mind, what would be an ideal community? Urban Eye uses artificial intelligence and big data to help our community create a score card and to analyse the deeper fabrics of the community through data analytics in order to promote a more people-centered community redevelopment process!
+                        <br/>
+                        <br/>
+                    </p>
+                    <button class="read-more-button" data-link="https://onedrive.live.com/embed?resid=E24C9B498E3B8545%21131&amp;authkey=!AOXLj6JGeGC4kzo&amp;em=2&amp;wdAr=1.7777777777777777&amp;wdEaaCheck=0" width="1280px" height="780px" frameborder="0" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true">
+                        
+                        View StoryMap
+                    </button>
+                </figcaption>
+            </figure>
+        </div>
+        <div class="cards-container3">
+            <figure class="image-block">
+                <h1>
+                    
+                </h1>
+                <img alt="" src="pic/brick.png"/>
+                <figcaption>
+                    <h3>
+                        BrickThroughHK &nbsp; | &nbsp; 2nd runner up 🥉
+                    </h3>
+                    <span>
+                        Group 9
+                    </span>
+                    <p>
+                        The government wishes to understand the needs and concerns of citizens in the rapid process of urban development. However, some may find the process of urban development abstract and very “blue sky”– it is hard to know what impacts a new building will have on the community? Brickthrough Hong Kong uses 3D technology and geographical data analysis to visualize the impact of planning, making the outcomes tangible and conducive to dialogues among stakeholders. 
+                    </p>
+                    <button class="read-more-button" data-link="https://onedrive.live.com/embed?resid=E24C9B498E3B8545%21124&amp;authkey=!APnGWm-p_3p0cbQ&amp;em=2&amp;wdAr=1.7777777777777777" width="1280px" height="780px" frameborder="0" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true">
+                        View StoryMap
+                    </button>
+                </figcaption>
+            </figure>
+        </div>
+
+        <div id="overlay" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.4); z-index: 999;"></div>
+        <div id="iframe-container" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.8); z-index: 9999;">
+            <iframe src="externalContent"></iframe>
+            <p1>
+                -- CLICK EMPTY SPACE TO EXIT --
+            </p1>
+        </div>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+        <script src="script.js"></script>
+        <script>
+            document.getElementById("language-toggle").addEventListener("click", function() {
+                if (document.getElementById("language-toggle").checked) {
+                    window.location.href = "index_zh.html";
+                } else {
+                    window.location.href = "index.html";
+                }
+            });
+            </script>
+    </body>
+</html>
